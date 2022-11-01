@@ -19,8 +19,9 @@ Extensión de hydra para manchar sus bocetos con sangre
 - When a number is selected pressing `ctrl+shift+1,2,3...` will change the number by functions of time as `()=>f(time)`
 
 ## uso
-
+Ejecutá la siguiente línea de código en el[editor web hydra](https://hydra.ojack.xyz/)
 ## usage
+run the following line of code in [hydra web-editor](https://hydra.ojack.xyz/)
 
 ```js
 await import("https://unpkg.com/hydracula")
