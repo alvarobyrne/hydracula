@@ -19,18 +19,18 @@
     window.addEventListener("keydown", (e) => {
       if (e.shiftKey && e.ctrlKey) {
         if (e.code === "Period") {
-          e.preventDefault();
-          selectWordAtCursor();
+          selectWordAtCursor(e);
         } else if (e.code === "Comma") {
-          e.preventDefault();
-          selectWordAtCursor(false);
+          selectWordAtCursor(e, false);
         }
       }
     });
   }
   const validTokenTypes = ["variable", "property", "number", "operator"];
   const invalidOperators = ["=>"];
-  function selectWordAtCursor(isForward = true) {
+  function selectWordAtCursor(e, isForward = true) {
+    e.preventDefault();
+
     // console.clear();
     const start = isForward ? "head" : "anchor";
     const cursor = cm.getCursor(start);
