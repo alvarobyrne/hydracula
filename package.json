@@ -1,6 +1,6 @@
 {
   "name": "hydracula",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Una extension para [hydra web-editor](https://hydra.ojack.xyz/) compuesta durante el taller de la cinemateca de Bogotá, [Muestra de resultados: Taller de creación colectiva con live-coding y memoria audiovisual](https://cinematecadebogota.gov.co/actividad/muestra-resultados-taller-creacion-colectiva-live-coding-y-memoria). Remezcla y reinterpretación en vivo de los sonidos e imágenes en movimiento inspirados en el corto colombiano **¿Por qué se esconde Drácula?**(1980) de la directora **Camila Loboguerrero**",
   "main": "index.js",
   "repository": "https://github.com/alvarobyrne/hydracula.git",

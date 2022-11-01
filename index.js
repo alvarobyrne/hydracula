@@ -3,6 +3,8 @@ if(!cm){
     console.log('cm global variable is not around')
     return 
 }
+console.log(`[hydracula]: blood stain/ mancha 'e sangre`);
+
 addListeners()
 function addListeners() {
   window.addEventListener("keydown", (e) => {
